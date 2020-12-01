@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_covid"
+        android:title="@string/covid_19"
+        android:icon="@drawable/ic_coronavirus"/>
+
+    <item
+        android:id="@+id/navigation_news"
+        android:title="@string/berita_kesehatan"
+        android:icon="@drawable/ic_newspaper"/>
+
+</menu>

@@ -1,4 +1,4 @@
-package org.fhmsyhdproject.pantaucovid_19
+package org.pegawaitelkom.pantaucovid19
 
 import org.junit.Test
 
