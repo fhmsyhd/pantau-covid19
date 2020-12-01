@@ -2,4 +2,8 @@
     <string name="app_name">Pantau COVID-19</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="covid_19">Covid-19</string>
+    <string name="berita_kesehatan">Berita Kesehatan</string>
+    <string name="gambar">Gambar</string>
+    <string name="internet_bermasalah">Internet Bermasalah</string>
 </resources>
