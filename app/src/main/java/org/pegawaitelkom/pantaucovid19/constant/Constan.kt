@@ -11,12 +11,12 @@ object Constan {
     const val DATA_GLOBAL = "data_global"
 
     // Network utils
-    const val BASE_URL = "https://api.kawalcorona.com/"
-    const val GET_INDONESIA = "indonesia"
-    const val GET_PROVINSI = "indonesia/provinsi"
-    const val GET_POSITIF = "positif"
-    const val GET_SEMBUH = "sembuh"
-    const val GET_MENINGGAL = "meninggal"
+    const val BASE_URL_KAWAL = "https://api.kawalcorona.com"
+    const val GET_INDONESIA = "/indonesia"
+    const val GET_PROVINSI = "/indonesia/provinsi"
+    const val GET_POSITIF = "/positif"
+    const val GET_SEMBUH = "/sembuh"
+    const val GET_MENINGGAL = "/meninggal"
 
     // api lain
     const val BASE_URL_API = "https://apicovid19indonesia-v2.vercel.app/"

@@ -12,4 +12,8 @@
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorGrey">#F1F1F1</color>
+    <color name="colorOrange">#FF9A03</color>
+    <color name="colorGreen">#98D858</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorDarkBlue">#03071E</color>
 </resources>

@@ -1,5 +1,6 @@
 package org.pegawaitelkom.pantaucovid19.view.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -20,6 +21,7 @@ import org.pegawaitelkom.pantaucovid19.databinding.FragmentHomeBinding
 import org.pegawaitelkom.pantaucovid19.model.ResponseCovidProvinsi
 import org.pegawaitelkom.pantaucovid19.network.ApiServiceCorona
 import org.pegawaitelkom.pantaucovid19.util.AdapterUtil
+import org.pegawaitelkom.pantaucovid19.view.global.CovidGlobalActivity
 
 
 class HomeFragment : Fragment() {
@@ -60,6 +62,11 @@ class HomeFragment : Fragment() {
             }
 
         })
+
+        //Setonclick data Dunia
+        binding.tvDataDunia.setOnClickListener {
+            startActivity(Intent(requireContext(),CovidGlobalActivity::class.java))
+        }
 
         val searchBar = binding.searchBar
         searchBar.apply {

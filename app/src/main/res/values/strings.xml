@@ -6,4 +6,5 @@
     <string name="berita_kesehatan">Berita Kesehatan</string>
     <string name="gambar">Gambar</string>
     <string name="internet_bermasalah">Internet Bermasalah</string>
+    <string name="mapbox_token">pk.eyJ1IjoiZmlrcmlzYWphIiwiYSI6ImNraWJ5aXoxZzE0YTMydHRnMjdhMHNyaGEifQ.dgvW2AkfuKmjGonmyPn4bw</string>
 </resources>
